@@ -1,0 +1,25 @@
+# Python environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Experiment data
+vision/data/*
+
+# Keep directory in Git
+!vision/data/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
